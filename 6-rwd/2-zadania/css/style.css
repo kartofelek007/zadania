@@ -1,0 +1,18 @@
+body {
+    height: calc(100vh - 16px);
+    display: flex;
+    align-items: center;
+}
+.element {
+    height: 200px;
+    background: orangered;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

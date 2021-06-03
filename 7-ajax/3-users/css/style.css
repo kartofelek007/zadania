@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin:10px;
+    background: #eee;
+    font-family:sans-serif;
+}
+.users-list {
+    max-width:1000px;
+    margin:0 auto;
+}
+.users-list .user-cnt {
+    color:#777;
+    background: #fff;
+    padding:20px;
+    box-shadow:0 1px 2px rgba(0,0,0,0.2);
+    margin-bottom:10px;
+    border-radius: 4px;
+}
+.users-list .user-name {
+    color:#222;
+    margin:0 0 20px;
+}
+.users-list .user-address {
+    margin-bottom:20px;
+}
+.users-list .btn {
+    background: dodgerblue;
+    padding:15px 40px;
+    color:#fff;
+    border:0;
+    cursor: pointer;
+    transition: 0.5s background;
+    border-radius: 4px;
+}
+.users-list .btn:hover {
+    background: #17C96C;
+}
+.users-list .btn:focus {
+    outline: none;
+}
+.users-list .user-posts {
+    display: none;
+    padding: 0;
+    padding-top: 20px;
+    list-style:  none;
+    font-size:  15px;
+}
+.users-list .post {
+    color:#777;
+    padding:20px;
+    border: 1px solid #ddd;
+    margin-bottom:  10px;
+}
+.users-list .post-title {
+    margin-top:0;
+    color:#222;
+}

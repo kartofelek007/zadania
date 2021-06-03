@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadania - użytkownicy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js"></script>
+</head>
+<body>
+
+    <ul class="user-list">
+        <li class="user">
+            <div class="user-data">
+                <div class="user-name">Kamil Nowak</div>
+                <div class="user-phone">500 600 700</div>
+            </div>
+            <button type="button" class="btn user-delete">
+                Usuń
+            </button>
+        </li>
+        <li class="user">
+            <div class="user-data">
+                <div class="user-name">Piotr Iksiński</div>
+                <div class="user-phone">500 600 700</div>
+            </div>
+            <button type="button" class="btn user-delete">
+                Usuń
+            </button>
+        </li>
+    </ul>
+
+    <form class="form">
+        <div class="form-row">
+            <label for="name">Imię i nazwisko</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div class="form-row">
+            <label for="phone">Telefon</label>
+            <input type="text" name="phone" id="phone">
+        </div>
+        <div class="form-row">
+            <button type="submit" class="btn">Dodaj</button>
+        </div>
+    </form>
+
+</body>
+</html>

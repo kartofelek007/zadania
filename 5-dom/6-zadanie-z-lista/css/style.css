@@ -1,0 +1,58 @@
+body {
+    background: #F9FAFC;
+    padding:30px;
+}
+.btn {
+    display: inline-block;
+    padding:10px 30px;
+    background: #3689DB;
+    border:0;
+    font-weight:bold;
+    color:#fff;
+}
+.list {
+    box-shadow:0 1px 3px rgba(0,0,0,0.2);
+    padding:20px 40px;
+    margin:20px 0;
+    background: #fff;
+    font-family: sans-serif;
+}
+.element {
+    border:1px solid #ddd;
+    padding:20px;
+    margin:20px 0;
+    background: #fff;
+    position: relative;
+}
+.clone,
+.delete {
+    position: absolute;
+    right: 20px;
+    top:30px;
+    text-indent:-9999px;
+    overflow: hidden;
+    width:40px;
+    height:40px;
+    background: none;
+    border:0;
+}
+.clone:before,
+.delete:before {
+    content:'\f014';
+    position: absolute;
+    left:50%;
+    top:50%;
+    width:30px;
+    height:30px;
+    transform:translate(-50%, -50%);
+    font-family: 'FontAwesome';
+    text-indent: 0;
+    font-size:30px;
+    cursor: pointer;
+}
+.clone {
+    right:70px;
+}
+.clone:before {
+    content: '\f24d'
+}

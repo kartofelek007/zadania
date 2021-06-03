@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    color:#fff;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    display: flex;
+    justify-content: center;
+    transition:0.5s;
+    z-index: 2;
+}
+.header-nav {
+    display: flex;
+}
+.header-list {
+    display: flex;
+    list-style: none;
+    padding:0;
+    margin:0;
+    display: flex;
+}
+.header-list-el {
+    display: flex;
+}
+.header-list-el:last-child {
+    border:0;
+}
+.header-list-link {
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px 30px;
+    font-weight: normal;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.banner {
+    height: 100vh;
+    min-height: 700px;
+    background-image: url(../images/camera-lens-on-a-red-background-2210x1473.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    overflow: hidden;
+}
+.banner-title {
+    position: relative;
+    z-index: 1;
+    font-size: 11vw;
+    line-height: 1.2;
+    font-weight: 300;
+    text-align: center;
+    text-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.banner::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;;
+    height: 100%;
+    background: #000;
+    opacity: 0.1;
+}
+
+.main-content {
+    margin:170px auto 20px;
+    color: #888;
+    max-width: 900px;
+    font-size: 17px;
+    line-height: 1.5;
+    padding-left:20px;
+    padding-right:20px;
+    text-align: justify;
+    font-family: sans-serif;
+    margin-bottom: 60px;
+}
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+    color: #040101;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+@media (min-width: 600px) {
+    .header.sticky {
+        height: 80px;
+        background: #040101;
+        box-shadow: 0 1px 10px rgba(0,0,0,0.2);
+        border: 0;
+    }
+}
+
+@media (max-width:600px) {
+    .header,
+    .header.sticky {
+        position: absolute;
+        transition: none;
+    }
+    .header-list-link {
+        padding: 20px;
+    }
+}
+
+@media (max-width:600px) {
+    .header {
+        height: auto;
+    }
+    .header-list {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+    .banner-title {
+        font-size: 15vw;
+    }
+    .header-list-link {
+        padding: 15px;
+    }
+}

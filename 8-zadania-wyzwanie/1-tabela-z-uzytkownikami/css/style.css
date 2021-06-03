@@ -1,0 +1,152 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+.form {
+    --label-width: 70px;
+    display: grid;
+    grid-template-columns: var(--label-width) 1fr var(--label-width) 1fr;
+    gap: 10px 20px;
+    margin-bottom: 30px;
+    max-width: min(600px, 100%);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow:   0 0.4px 1.6px rgba(0, 0, 0, 0.02),
+    0 1px 3.9px rgba(0, 0, 0, 0.028),
+    0 1.9px 7.3px rgba(0, 0, 0, 0.035),
+    0 3.4px 13px rgba(0, 0, 0, 0.042),
+    0 6.3px 24.2px rgba(0, 0, 0, 0.05),
+    0 15px 58px rgba(0, 0, 0, 0.07);
+}
+.form-row {
+    display: grid;
+    grid-column: span 2;
+    grid-template-columns: subgrid;
+}
+.form-row-last {
+    grid-column: span 4;
+}
+.form-row-last {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    grid-template-columns: none;
+}
+.form label {
+    align-self: center;
+    /* justify-self: end; */
+}
+.form input {
+    border: 1px solid #aaa;
+    padding: 10px;
+    border-radius: 5px;
+}
+.form button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form button[type="reset"] {
+    background: none;
+    color: #999;
+    border: 1px solid #ccc;
+}
+.form button[type="submit"],
+.form button[type="button"] {
+    background: #0DD;
+    color: #fff;
+    border: 0;
+}
+@media (max-width: 600px) {
+    .form {
+        grid-template-columns: var(--label-width) 1fr;
+    }
+    .form-row-last {
+        grid-column: span 2;
+    }
+}
+
+.tab {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.tab td,
+.tab th {
+    padding: 10px;
+    border: 1px solid #ddd;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.tab th {
+    background: #efefef;
+}
+.tab th svg {
+    margin-left: 40px;
+    cursor: pointer;
+    transform: rotate(90deg);
+}
+.tab th svg.active {
+    opacity: 1;
+}
+.tab th svg polyline {
+    opacity: 0.2;
+}
+.tab th[data-order="asd"] svg polyline:first-child { opacity: 1; }
+.tab th[data-order="desc"] svg polyline:last-child { opacity: 1; }
+.tab th span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tab-cnt {
+    position: relative;
+}
+.tab-buttons {
+    padding: 20px 0;
+}
+.tab-buttons button {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+}
+.tab-buttons button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+.tab-cnt.loading-data .tab {
+    opacity: 0.5;
+    filter: blur(1px)
+}
+.tab-cnt.loading-data .loading {
+    display: block;
+}
+.tab-cnt .loading {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.5);
+    display: none;
+}
+.tab-cnt .loading::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 3px solid rgba(0,0,0,0.3);
+    border-right-color: #000;
+    width: 20px;
+    height: 20px;
+    transform: translate(-50%, -50%) rotate(0turn);
+    border-radius: 50%;
+    animation: loading 0.3s 0s infinite linear;
+}
+@keyframes loading {
+    100% {
+        transform: translate(-50%, -50%) rotate(1turn);
+    }
+}

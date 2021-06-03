@@ -1,0 +1,111 @@
+body {
+    background: #d6ecfa;
+    overflow: hidden;
+}
+.popup {
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    display:  flex;
+    background: rgba(0,0,0,0.8);
+    justify-content: center;
+    align-items: center;
+}
+.popup-title {
+    font-weight: normal;
+    font-size: 3rem;
+    color: #ff0000;
+}
+.popup-container {
+    width:500px;
+    height:500px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 37px;
+    background: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #333;
+    font-family:sans-serif;
+    text-align: center;
+    box-shadow: 0 2px 30px rgba(0,0,0,0.2);
+}
+.popup-container-icon {
+    width: 150px;
+    height: 150px;
+    background: url(../images/man.svg) no-repeat;
+    background-size: cover;
+    margin: 10px auto;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    max-width: 1500px;
+    margin: 0 auto;
+    height: 100%;
+    align-items: center;
+}
+
+@media (max-width: 900px) {
+    .articles {
+        flex-direction: column;
+    }
+}
+
+.article {
+    font-family: sans-serif;
+    padding:20px;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-radius: 2px;
+    display:  flex;
+    flex-direction: column;
+}
+.articles-title {
+    text-align: center;
+    font-size: 2rem;
+}
+.article-photo {
+    height: 300px;
+}
+.article-photo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.article-content {
+    color: #444;
+}
+.article-title {
+    color: #333;
+}
+.article-text {
+    color: #999;
+    line-height: 1.4;
+    margin-bottom:20px;
+}
+.article-btn {
+    align-self: flex-end;
+    background: #60D;
+    color: #ffffff;
+    padding: 20px 40px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.5s background, 0.5s color;
+}
+
+.article-btn:hover {
+  background: #111;
+  color: #000;
+}
+.btn {
+    background: #333;
+    color: #686868;
+}

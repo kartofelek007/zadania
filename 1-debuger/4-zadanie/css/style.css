@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+
+html {
+    background: tomato;
+}
+body {
+    margin: 0;
+    background: tomato;
+    transition: 10s background;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* --------- timer --------- */
+.timer {
+    display: flex;
+    justify-content: center;
+    mix-blend-mode: color-dodge;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.timer > * {
+    color: #fff;
+    font-weight: bold;
+    padding: 20px;
+    border-bottom: 4px solid #fff;
+    border-top: 4px solid #fff;
+    margin-right: 20px;
+    font-size: 10px;
+    font-size:6rem;
+    text-shadow: 0 0 7px rgba(255,255,255,0.5);
+}
+
+/* --------- clock --------- */
+.clock {
+    --hours: 0;
+    --minutes: 0;
+    --second: 0;
+    --color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.1;
+}
+.clock::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: var(--color);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.clock .hours,
+.clock .minutes,
+.clock .second {
+    content: "";
+    background: var(--color);
+    transform-origin: center bottom;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -100%);
+}
+.clock .hours {
+    width: 20px;
+    height: 250px;
+    transform: translate(-50%, -100%) rotate(var(--hours));
+}
+.clock .minutes {
+    width: 10px;
+    height: 300px;
+    transform: translate(-50%, -100%) rotate(var(--minutes));
+}
+.clock .second {
+    width: 5px;
+    height: 350px;
+    transform: translate(-50%, -100%) rotate(var(--second));
+}

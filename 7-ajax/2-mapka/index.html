@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>Zadania - AJAX</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+    <div class="country-info">
+        <div class="country-select-cnt">
+            <select id="countrySelect" disabled></select>
+        </div>
+
+        <div class="country-sidebar">
+            <div class="country-flag" >
+                <img  id="countryFlag" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'/%3E">
+            </div>
+            <div class="country-data" id="countryData">
+                <h3 class="country-name">
+                    ---
+                </h3>
+                <div>
+                    Stolica: <strong>---</strong>
+                </div>
+                <div>
+                    Region: <strong>---</strong>
+                </div>
+                <div>
+                    Podregion: <strong>---</strong>
+                </div>
+                <div>
+                    Liczba ludności: <strong>---</strong>
+                </div>
+                <div>
+                    Strefa czasowa: <strong>---</strong>
+                </div>
+            </div>
+        </div>
+        <div class="country-map" id="mapid">
+
+        </div>
+    </div>
+</body>
+</html>

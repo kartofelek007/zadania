@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadania - Ajax</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" defer></script>
+</head>
+</head>
+<body>
+
+    <form class="form">
+        <div class="form-row">
+            <label for="formId">id</label>
+            <input type="number" name="id" id="formId">
+        </div>
+        <div class="form-row">
+            <label for="formName">name</label>
+            <input type="text" name="first_name" id="formName">
+        </div>
+        <div class="form-row">
+            <label for="formSurname">surname</label>
+            <input type="text" name="last_name" id="formSurname">
+        </div>
+        <div class="form-row">
+            <label for="formEmail">email</label>
+            <input type="text" name="email" id="formEmail">
+        </div>
+        <div class="form-row">
+            <label for="formGender">gender</label>
+            <input type="text" name="gender" id="formGender">
+        </div>
+        <div class="form-row">
+            <label for="formIp">ip</label>
+            <input type="text" name="ip" id="formIp">
+        </div>
+        <div class="form-row form-row-last">
+            <button type="submit">szukaj</button>
+            <button type="reset">resetuj</button>
+        </div>
+    </form>
+
+    <div class="tab-cnt">
+        <table class="tab">
+            <thead>
+                <th data-id="id">
+                    <span>
+                        id
+                        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                    </span>
+                </th>
+                <th data-id="first_name">
+                    <span>
+                        name
+                        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                    </span>
+                </th>
+                <th data-id="last_name">
+                    <span>
+                        surname
+                        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                    </span>
+                </th>
+                <th data-id="email">
+                    <span>
+                        email
+                        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                    </span>
+                </th>
+                <th data-id="gender">
+                    <span>
+                        gender
+                        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                    </span>
+                </th>
+                <th data-id="ip_address">
+                    <span>
+                        ip
+                        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                    </span>
+                </th>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <div class="loading"></div>
+    </div>
+
+    <div class="tab-buttons">
+        <button id="prev">prev</button>
+        <button id="next">next</button>
+    </div>
+
+</body>
+</html>

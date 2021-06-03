@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fefefe;
+    min-height: 500px;
+    min-width: 500px;
+}
+body.win {
+    background: url(../images/bgg.jpg);
+    background-size: cover;
+}
+.video-cnt {
+    max-width:1200px;
+    width:100%;
+}
+.video-cnt > div {
+    padding-top:56.25%;
+    position: relative;
+}
+.video-cnt iframe {
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    height: 505px;
+    width: 505px;
+    margin:20px auto;
+    background: url(../images/container-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.el,
+.el.last-attempt span {
+    background: #8283a7;
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    font-size:2rem;
+    color: #fff;
+    text-shadow: 1px 1px 1px #fff;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 1px rgba(0,0,0,1);
+}
+.el.last-attempt {
+    background: none;
+    box-shadow: none;
+}
+.el.last-attempt span {
+    width: 100%;
+    height: 100%;
+}
+.first-attempt.active,
+[data-border][data-el-active],
+span.active:not(.inactive),
+.hack[title="hacking"],
+.hijack:not([title]):not([data-hack-active]),
+.st1.st2[style*="color:"][style*="font-size:"][style*="red"][style*="15px"],
+.attrib[data-hack-active]:not([data-hack-inactive]),
+.last-attempt span[style^="display"][style*="none"] {
+    opacity:0;
+    animation-delay: 1s;
+}
+.last-img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+

@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 750px;
+}
+:root {
+    --color1 :  #4A00E0;
+    --color2 : #8E2DE2;
+}
+.map {
+    width: 700px;
+    height: 654px;
+    background: url(../images/mapa.png);
+    background-size: cover;
+    position: relative;
+}
+.map-text {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    width: 250px;
+    font-family: sans-serif;
+    color: #aaa;
+    font-size: 18px;
+}
+.map-text span {
+    color:  var(--color1);
+    font-weight: bold;
+}
+.map-marker {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(to bottom, var(--color1), var(--color2));
+    border-radius: 50%;
+    text-indent:-99999px;
+    overflow: hidden;
+    transform: scale(1);
+    transition: 0.5s;
+    box-shadow:
+        0 2px 8px rgba(0,0,0,0.2),
+        inset 0 5px 1px rgba(255,255,255,0.2);
+}
+.map-marker:before {
+    content: '';
+    display: block;
+    background: #fff;
+    box-shadow: inset 0 0 2px rgba(0,0,0,0.5), 0 0 1px rgba(255,255,255,0.5);
+    border-radius: 50%;
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.map-marker:hover {
+    transform: scale(1.2);
+}
+.map-tooltip {
+    padding: 10px 15px;
+    background: var(--color1);
+    display: inline-block;
+    white-space: nowrap;
+    position: absolute;
+    left:-9999px;
+    top:-9999px;
+    font-family: sans-serif;
+    color: rgba(255,255,255,0.7);
+    border-radius: 0 4px 4px 4px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2), 0 3px 10px rgba(0,0,0,0.2);
+}
+.map-tooltip h2 {
+    font-size: 20px;
+    margin-top: 0;
+    color:  #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}

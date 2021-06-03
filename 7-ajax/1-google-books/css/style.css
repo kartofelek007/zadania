@@ -1,0 +1,30 @@
+body {
+    margin:30px;
+    background: #eee;
+}
+.search-form {
+    max-width:  1300px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    width:100%;
+    padding:20px;
+    background: dodgerblue;
+    border-radius: 5px;
+}
+.search-form input {
+    flex-grow: 1;
+    padding:15px;
+    border-radius: 3px;
+    border:1px solid #eee;
+}
+.search-form button {
+    border-radius: 3px;
+    padding:10px 30px;
+    border:  1px solid #fff;
+    color:  #fff;
+    background: none;
+    color:#fff;
+    margin-left:10px;
+    cursor: pointer;
+}

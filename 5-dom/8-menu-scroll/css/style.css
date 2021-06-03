@@ -1,0 +1,75 @@
+body {
+    background: #fff;
+    margin: 0;
+}
+.nav {
+    list-style:none;
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 90px;
+    transition: 0.5s min-height, 0.5s box-shadow;
+}
+.nav.sticky {
+    min-height: 70px;
+    box-shadow:
+        0 2px 2px rgba(0,0,0,0.4),
+        0 2px 25px rgba(0,0,0,0.5);
+}
+.nav-el {
+    background: dodgerblue;
+    flex-grow:1;
+    border-right: 1px solid #74AFE8;
+    transition: 0.5s background-color;
+    display: flex;
+    position: relative;
+}
+.nav-el:last-child {
+    border-right: 0;
+}
+.nav-link {
+    display: block;
+    display: flex;
+    flex-grow:1;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color:#fff;
+    font-weight: bold;
+    transition: 0.5s all;
+}
+.nav-el:not(.nav-el-active) .nav-link:hover {
+    background: rgba(255,255,255,0.2);
+}
+.nav-el-active {
+    background: #fff;
+    color:  dodgerblue;
+}
+.nav-el-active .nav-link {
+    color:  dodgerblue;
+}
+section {
+    padding-top: 60px;
+    margin: 40px;
+    font-size:  1.3rem;
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+}
+section:first-of-type {
+    margin-top: 150px;
+}
+section h1 {
+    font-family: 'Bree Serif', serif;
+    color: Midnightblue;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}

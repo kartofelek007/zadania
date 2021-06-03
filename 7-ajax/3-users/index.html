@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <title>Zadania - AJAX</title>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/app.js" defer></script>
+    </head>
+    <body>
+        <div class="users-list" id="usersList">
+
+        </div>
+
+        <template id="templateElement">
+            <h2 class="user-name">{{userName}}</h2>
+            <div class="user-address">
+                Phone: <span class="user-phone">{{phone}}</span><br>
+                email: <a class="user-email" href="mailto: {{email}}">{{email}}</a>
+            </div>
+
+            <button type="button" class="btn user-show-posts">
+                Show posts
+            </button>
+
+            <ul class="user-posts">
+                <!-- tutaj będą posty użytkownika -->
+            </ul>
+        </template>
+
+        <template id="templatePost">
+            <h3 class="post-title">{{title}}</h3>
+            <div class="post-body">
+                {{body}}
+            </div>
+        </template>
+    </body>
+</html>
