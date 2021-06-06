@@ -85,6 +85,28 @@ Sprawdź, czy w tablicy znajdują się pełnoletni użytkownicy.
 Jeżeli ich nie ma, wypisz w konsoli tekst `same małolaty`. Jeżeli jednak tacy się tam znajdują, stwórz nową tablicę zawierającą tylko pełnoletnie osoby, posortuj ją a następnie wypisz w konsoli.
 
 
+## Zadanie 7
+--------------------------
+Napisz funkcję `generateArray()`, która za pomocą pętli oraz funkcji `String.fromCharCode()` stwórzy i zwróci tablicę składającą się z kolejnych dużych liter. Litera A to kod 65, natomiast Z to 90.
+
+Napisz funkcję `splitArray(tab, nr)`, do której przekażesz powyższą tablicę oraz liczbę `nr`. Funkcja powinna zwrócić tablicę tablic, gdzie każda podtablica będzie składać się z `nr` kolejnych liter. Możesz tutaj wykorzystać metodę `slice()` dostępną dla tablic.
+
+
+```
+input: splitArray(tab, 6)
+wynik:
+[
+    ["A", "B", "C", "D", "E", "F"],
+    ["G", "H", "I", "J", "K", "L"],
+    ["M", "N", "O", "P", "Q", "R"],
+    ["S", "T", "U", "V", "W", "X"],
+    ["Y", "Z"]
+]
+```
+
+
+
+
 ## Materiały:
 --------------------------
 https://kursjs.pl/kurs/super-podstawy/tablice.php

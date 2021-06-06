@@ -35,18 +35,13 @@ Autorzy strony niestety wyłączyli na niej przewijanie. W zakładce Element wyb
 --------------------------
 Przyciski pod artykułem źle się wyświetlają. Zbadaj je za pomocą debugera. Z prawej strony w stylowaniu powinieneś widzieć przekreślone style tła i koloru oraz linijkę, gdzie się znajdują w pliku ze stylami. Usuń niepotrzebne stylowanie z pliku ze stylami.
 
-Po najechaniu na przycisk robi się on bardzo ciemny, ale nie wygląda to za dobrze. Wymuś mu stan najechania klikając na ikonkę :hov i wybierając stan :hover. Dodaj mu background: dodgerblue wpisując je w części oznaczonej jako `element.style {}` (na górze prawej strony). Dodatkowo zmień mu kolor tekstu na jakiś jasny.
+Po najechaniu na przycisk robi się on bardzo ciemny, ale nie wygląda to za dobrze. Wymuś mu stan najechania klikając na ikonkę :hov i wybierając stan :hover. Dodaj mu background: `dodgerblu`e` wpisując je w części oznaczonej jako `element.style {}` (na górze prawej strony). Dodatkowo zmień mu kolor tekstu na jakiś jasny.
 
 
 ### Zadanie 4
 --------------------------
 Chcielibyśmy sprawdzić, czy nasze artykuły będą dobrze wyglądały z różną treścią.
 Kliknij prawym przyciskiem na dowolny tytuł i kliknij `Edit as html`. Dopisz z 2 słowa i sprawdź efekt. To samo zrób z treścią artykułu.
-
-
-### Zadanie 5
---------------------------
-Poznanymi metodami pobaw się innymi stronami.
 
 
 ## Materiały:
