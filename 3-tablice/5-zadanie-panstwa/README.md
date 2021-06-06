@@ -1,11 +1,7 @@
 # Zadania - tablice
+==========================
 
 
-Uwaga! Do tego zadania najlepiej poznać funkcje iteracyjne. Opisałem je na stronie:
-http://kursjs.pl/kurs/super-podstawy/tablice-tematy-dodatkowe.php
-Można też pokusić się zrobić je bez tych metod. Po prostu będzie więcej kodowania.
-
-Zadanie w sumie podobne do poprzednich dwóch.
 W pliku `data/data.js` znajduje się tablica z państwami.
 Stosując poznane metody zrealizuj poniższe zadania:
 
@@ -53,3 +49,10 @@ Wypisz wszystkie dane na temat Polski
 ## Zadanie 9
 --------------------------
 Sprawdź czy średnia wieku w Polsce jest większa od średniej na Świecie.
+
+
+## Materiały:
+--------------------------
+https://kursjs.pl/kurs/super-podstawy/tablice.php
+http://kursjs.pl/kurs/super-podstawy/tablice-tematy-dodatkowe.php
+https://kursjs.pl/kurs/super-podstawy/funkcje.php

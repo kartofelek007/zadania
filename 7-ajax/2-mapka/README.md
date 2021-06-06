@@ -1,4 +1,5 @@
 # Zadania - ajax mapka
+==========================
 
 
 ## Zadanie 1
@@ -36,3 +37,10 @@ Wycentruj mapę na danym państwie kodem:
 map.setView([51.919437, 19.145136], 5);
 ```
 Pozycje lat i lng musisz pobrać z odpowiedzi.
+
+
+## Materiały:
+--------------------------
+https://kursjs.pl/kurs/ajax/ajax.php
+https://kursjs.pl/kurs/ajax/promise.php
+https://kursjs.pl/kurs/ajax/async-await.php

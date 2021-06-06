@@ -1,12 +1,10 @@
-# Zadania - obiekty - class / konstruktor
-
-
-Poniższe zadania możesz wykonać pomocą konstruktora albo class.
+# Zadania - obiekty
+==========================
 
 
 ## Zadanie 1
 --------------------------
-Stwórz konstruktor **User**.
+Stwórz konstruktor/klasę **User**.
 Każdy obiekt budowany na jego bazie powinien mieć właściwości:
 - **nick** - string
 - **name** - string
@@ -36,7 +34,7 @@ const names = [ "Baraka", "Jax", "Johnny Cage", "Kitana", "Kung Lao", "Liu Kang"
 ```
 
 1)
-Stwórz klasę `Fighter`. Powinna mieć ona właściwości:
+Stwórz konstruktor/klasę `Fighter`. Powinna mieć ona właściwości:
 `name` - imię
 `live` - życie
 `power` - moc uderzenia
@@ -121,3 +119,8 @@ która poprawnie sortuje tablicę liczb
 ```
 [1,1.2,11,22,2.1].sortNr() === [1,1.2,2.1,11,22]
 ```
+
+
+## Materiały:
+--------------------------
+https://kursjs.pl/kurs/obiekty/obiekty.php

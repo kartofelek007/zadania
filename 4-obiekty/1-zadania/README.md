@@ -1,9 +1,10 @@
 # Zadania - obiekty
+==========================
 
 
 ## Zadanie 1
 --------------------------
-Stwórz 2 obiekty `rectangle` i `circle`.
+Stwórz 2 obiekty: `rectangle` i `circle`.
 Obiekt rectangle powinien mieć właściwości `height`, `width`, natomiast circle właściwość `radius`.
 Oba obiekty powinny mieć metodę `showArea()`, która zwróci pole danej figury.
 
@@ -46,12 +47,12 @@ Wypisywanie właściwości wykonaj za pomocą pętli `for in`, oraz pętli po ko
 --------------------------
 Stwórz prosty obiekt **spaceShip**, który będzie miał:
 
-## Właściwości:
+#### Właściwości:
 - **name** ustawioną na Enterprise
 - **currentLocation** ustawioną na Earth
 - **flyDistance** ustawione na 0
 
-## Metody:
+#### Metody:
 - **flyTo(place, distance)** która ustawi obiektowi właściwość `currentLocation` na odpowiednie miejsce podane w parametrze `place` oraz doliczy przebyty dystans do `flyDistance`.
 
 - Metodę **showInfo()** która wypisze w konsoli tekst:
@@ -199,3 +200,8 @@ Stwórz obiekt o nazwie **text**. Obiekt ten powinien mieć metody:
     generateRandom(10)
     ---> "dkjiuhtjox"
     ```
+
+
+## Materiały:
+--------------------------
+https://kursjs.pl/kurs/obiekty/obiekty.php

@@ -1,4 +1,5 @@
 # Zadania - debuger
+==========================
 
 
 ### Zadanie 1
@@ -30,3 +31,8 @@ Skrypt powinien zatrzymać się we wskazanym przez nas miejscu. W tym momencie m
 
 Widzisz w czym jest problem? Wartości pobrane z pól są typu tekstowego, a powinny być numerami.
 Wiedząc w którym pliku się znajdujemy oraz w której linijce kod działa niepoprawnie napraw jego działanie.
+
+
+## Materiały:
+--------------------------
+https://kursjs.pl/kurs/debuger/debuger.php

@@ -1,4 +1,5 @@
 # Zadania - RWD
+==========================
 
 
 ## Zadanie 1
@@ -11,3 +12,9 @@ Napisz kod, który podczas przewijania okna sprawdzi pozycję paska przewijania 
 ## Zadanie 2
 --------------------------
 Nagłówek ma pozycjonowanie fixed, więc jest przypięty do ekranu. Dla małych ekranów (max 600px szerokości) nagłówek zmienia pozycjonowanie na absolutne, więc powyższy kod nie będzie miał sensu. Dopisz dodatkowy kod, który powyższe dodawanie klasy będzie wykonywał tylko dla ekranów `>= 600px`.
+
+
+## Materiały:
+--------------------------
+https://kursjs.pl/kurs/rwd.php
+https://kursjs.pl/kurs/events/events.php

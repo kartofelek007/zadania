@@ -1,4 +1,5 @@
-# Zadania - dynamiczna galeria
+# Zadania - galeria
+==========================
 
 
 Małe zadanko dla ciebie. Tym razem nie będzie prowadzenia za rączkę. Zrób je samodzielnie.
@@ -8,7 +9,7 @@ Dodatkową funkcjonalnością będzie stronicowanie z przyciskami Prev/Next.
 Na koniec dodaj do zdjęć możliwość podglądu dużego rozmiaru za pomocą tak zwanego lightboxa.
 
 
-### Kilka wytycznych:
+## Kilka wytycznych:
 --------------------------
 1. Zdjęcia pobierzesz dynamicznie ze strony https://pixabay.com/service/about/api/. Musisz się tam zalogować, oraz pobrać klucz, który będziesz przekazywał do API. Po zalogowaniu spójrz na opis api na stronie https://pixabay.com/api/docs/
 

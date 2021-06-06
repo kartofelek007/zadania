@@ -1,4 +1,5 @@
-# Zadania - tablice wielowymiarowe
+# Zadania - tablice
+==========================
 
 
 ## Zadanie 1
@@ -9,3 +10,9 @@
    gdzie pobranyKolor pobieraj z tablicy colors. Indeks koloru pobierzesz z danego miejsca w tablicy tab np: *tab[0][0] = 0*; czyli *pobranyKolor = #ffffff*
 3. Po zakończeniu każdej pętli po tablicy 2 wymiaru, do tekstu dodawaj `<br>`
 4. W rezultacie powinieneś otrzymać rysunek
+
+
+## Materiały:
+--------------------------
+https://kursjs.pl/kurs/super-podstawy/tablice.php
+https://kursjs.pl/kurs/super-podstawy/funkcje.php

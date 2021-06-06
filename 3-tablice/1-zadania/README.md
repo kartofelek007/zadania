@@ -1,3 +1,7 @@
+# Zadania - tablice
+==========================
+
+
 ## Zadanie 1
 --------------------------
 Stwórz tablicę z 6 losowymi zwierzakami.
@@ -81,7 +85,10 @@ Sprawdź, czy w tablicy znajdują się pełnoletni użytkownicy.
 Jeżeli ich nie ma, wypisz w konsoli tekst `same małolaty`. Jeżeli jednak tacy się tam znajdują, stwórz nową tablicę zawierającą tylko pełnoletnie osoby, posortuj ją a następnie wypisz w konsoli.
 
 
-
+## Materiały:
+--------------------------
+https://kursjs.pl/kurs/super-podstawy/tablice.php
+https://kursjs.pl/kurs/super-podstawy/funkcje.php
 
 
 

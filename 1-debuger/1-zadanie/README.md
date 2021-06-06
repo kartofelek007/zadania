@@ -1,4 +1,5 @@
 # Zadania - debuger
+==========================
 
 
 Te zadania będziemy wykonywać razem.
@@ -46,3 +47,8 @@ Kliknij prawym przyciskiem na dowolny tytuł i kliknij `Edit as html`. Dopisz z 
 ### Zadanie 5
 --------------------------
 Poznanymi metodami pobaw się innymi stronami.
+
+
+## Materiały:
+--------------------------
+https://kursjs.pl/kurs/debuger/debuger.php

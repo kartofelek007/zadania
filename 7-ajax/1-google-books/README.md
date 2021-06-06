@@ -1,4 +1,5 @@
 # Zadania - ajax - google books
+==========================
 
 
 ## Zadanie 1
@@ -26,3 +27,10 @@ Dodatkowe: zadanie spróbuj wykonać korzystając z:
 * jquery ajax
 
 linki do axios i jquery wstaw korzystając z serwerów cdn.
+
+
+## Materiały:
+--------------------------
+https://kursjs.pl/kurs/ajax/ajax.php
+https://kursjs.pl/kurs/ajax/promise.php
+https://kursjs.pl/kurs/ajax/async-await.php

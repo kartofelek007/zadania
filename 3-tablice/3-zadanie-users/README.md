@@ -1,4 +1,5 @@
 # Zadania - tablice
+==========================
 
 
 Uwaga! Do tego zadania najlepiej poznać funkcje iteracyjne. Opisałem je na stronie:
@@ -56,3 +57,10 @@ Wypisz nową tablicę zawierającą tylko imiona użytkowników które będą pi
 --------------------------
 Wypisz liczbę kobiet i liczbę mężczyzn
 Wypisz tekst która grupa jest liczniejsza (np. "kobiety wygrywają")
+
+
+## Materiały:
+--------------------------
+https://kursjs.pl/kurs/super-podstawy/tablice.php
+http://kursjs.pl/kurs/super-podstawy/tablice-tematy-dodatkowe.php
+https://kursjs.pl/kurs/super-podstawy/funkcje.php

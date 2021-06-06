@@ -1,4 +1,5 @@
 # Zadania - debugger
+==========================
 
 
 Na stronie znajdują się 2 zegarki. Jeden cyfrowy oraz drugi - wskazówkowy tle strony.
@@ -70,3 +71,8 @@ Tło strony ustawiane jest na wartość zwrócona przez funkcję generateRandomC
 ![](./_data/ikonki-next.png)
 
 Jak widzimy generowany jest randomowy kolor w zapisie hsl. Drugi parametr takiego zapisu to natężenie nasycenia koloru. W naszym przypadku wynosi 20%, co powoduje, że kolory są bure. Zmieńmy go na coś mocniejszego - od 60% do 100% powinno być ok. Wyłączmy wszystkie breakpointy i sprawdźmy działanie skryptu.
+
+
+## Materiały:
+--------------------------
+https://kursjs.pl/kurs/debuger/debuger.php

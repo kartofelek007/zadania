@@ -1,4 +1,5 @@
 # Zadania - DOM
+==========================
 
 
 ## Zadanie 1
@@ -23,3 +24,9 @@
 
     Po kliknięciu na przycisk `.close` wszystkim LI usuń klasę `.expand` oraz klasę `.collapsed`
     Usuń kliknięty przycisk `.close`
+
+
+## Materiały:
+--------------------------
+https://kursjs.pl/kurs/dom/dom.php
+https://kursjs.pl/kurs/events/events.php

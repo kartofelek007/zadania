@@ -1,4 +1,5 @@
-### Zadanie rozmowa rekrutacyjna
+### Zadania - lista użytkowników
+==========================
 
 
 W ramach rekrutacji dostałeś zadanie stworzenia listy użytkowników, którymi można zarządzać.
@@ -9,7 +10,8 @@ https://www.youtube.com/watch?v=dxzyOBDbp9c&feature=youtu.be
 
 Twoim zadaniem będzie zaprogramowanie logiki, ale też wyglądu.
 
-### Wytyczne:
+## Wytyczne:
+--------------------------
 - odpowiednie ikonki znajdują się w katalogu images
 - strona powinna być w pełni responsywna
 - zanim zaczniesz zadanie, zainstaluj paczki z pliku package.json, a następnie odpal `npm start`. Powinno ono odpalić json-server, który będzie nasłuchiwał plik `database/database.json`. W terminalu powinieneś dostać adres na który będziesz się łączył to jest mniej więcej `http://localhost:3000/users`.

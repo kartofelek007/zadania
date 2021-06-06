@@ -1,4 +1,5 @@
 # Zadania - DOM
+==========================
 
 
 ## Zadanie 1
@@ -43,3 +44,8 @@ c) mouseout:
     - niech ukrywa toolip
     - niech czyści html tooltipa
 
+
+## Materiały:
+--------------------------
+https://kursjs.pl/kurs/dom/dom.php
+https://kursjs.pl/kurs/events/events.php

@@ -1,4 +1,5 @@
-# Zadania - ajax tabela
+# Zadania - tabela z użytkownikami
+==========================
 
 
 Do tego zadania będziesz potrzebował bazy danych. Wykorzystamy tutaj [json-server](http://kursjs.pl/kurs/ajax/server-lokalny.php#json-server).

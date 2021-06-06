@@ -1,4 +1,5 @@
 # Zadania - debugger
+==========================
 
 
 ## Zadanie 1
@@ -29,4 +30,6 @@ Breakpoint powinien zatrzymać się na użytkowniku "Edie Goodger". Gdy najedzie
 Jak to naprawić? Albo zmienimy tą wartość ręcznie w tablicy users, albo przy liczeniu zabezpieczymy się dodając dodatkową konwersję na liczbę.
 
 
-
+## Materiały:
+--------------------------
+https://kursjs.pl/kurs/debuger/debuger.php

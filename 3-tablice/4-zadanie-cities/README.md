@@ -1,4 +1,5 @@
 # Zadania - tablice
+==========================
 
 
 Uwaga! Do tego zadania najlepiej poznać funkcje iteracyjne. Opisałem je na stronie:
@@ -43,3 +44,9 @@ Wypisz nazwy wszystkich miast, w których jest ponad 10000 ludzi
 --------------------------
 Wypisz czy więcej jest miast z > 10000 ludzi czy mniejszych
 
+
+## Materiały:
+--------------------------
+https://kursjs.pl/kurs/super-podstawy/tablice.php
+http://kursjs.pl/kurs/super-podstawy/tablice-tematy-dodatkowe.php
+https://kursjs.pl/kurs/super-podstawy/funkcje.php

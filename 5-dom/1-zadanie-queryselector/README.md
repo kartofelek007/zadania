@@ -1,4 +1,5 @@
 # Zadania - DOM
+==========================
 
 
 ## Zadanie 1
@@ -15,4 +16,8 @@ Jeżeli dane kwadraty nie zostały usunięte, znaczy że polecenie nie zostało 
 7. Znajdź elementy o klasie `.last-attempt` i ukryj (nie usuwaj) w ich wnętrzu spany
 
 
+## Materiały:
+--------------------------
+https://kursjs.pl/kurs/dom/dom.php
+https://kursjs.pl/kurs/events/events.php
 

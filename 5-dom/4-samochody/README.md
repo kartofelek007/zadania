@@ -1,4 +1,5 @@
 # Zadania - DOM
+==========================
 
 
 ## Zadanie 1
@@ -12,3 +13,9 @@ Po ponownym kliknięciu na przycisk
 - Przywróć początkowy tekst na przycisku (pokaż detale)
 - schowaj `.car-detail` danego samochodu
 - usuń klasę `.car-show-detail` z danego samochodu
+
+
+## Materiały:
+--------------------------
+https://kursjs.pl/kurs/dom/dom.php
+https://kursjs.pl/kurs/events/events.php

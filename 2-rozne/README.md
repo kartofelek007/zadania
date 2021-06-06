@@ -1,3 +1,7 @@
+# Zadania - różne
+==========================
+
+
 ## Zadanie 1
 --------------------------
 Napisz funkcję `countWord(txt)`, która wymagać będzie tekstu.

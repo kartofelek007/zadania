@@ -1,4 +1,5 @@
 # Zadania - ajax
+==========================
 
 
 ## Zadanie 1
@@ -46,3 +47,10 @@ Po kliknięciu w taki przycisk, pobierz posty dla danego usera (id usera pobierz
 Po wrzuceniu postów rozwiń element `.user-posts` i zmień tekst na buttonie na "Hide posts".
 
 Po ponownym kliknięciu w ten sam button, zwiń listę postów i zmień przycisk na "Show posts"
+
+
+## Materiały:
+--------------------------
+https://kursjs.pl/kurs/ajax/ajax.php
+https://kursjs.pl/kurs/ajax/promise.php
+https://kursjs.pl/kurs/ajax/async-await.php
