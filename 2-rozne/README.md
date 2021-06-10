@@ -36,7 +36,7 @@ Imię Ania rozpoczyna się od litery A
 --------------------------
 Napisz funkcję `fileInfo(file)`, która będzie przyjmować pełną nazwę pliku (wraz z rozszerzeniem).
 Funkcja powinna zwracać obiekt, z właściwościami `name` oraz `extension`. Pod name podstaw nazwę przekazanego pliku, a pod extension jego rozszerzenie.
-Jeżeli przekazany plik nie będzie w formacie `nazwa.rozszerzenie` (np. plik.jpg), wtedy zwróć false.
+Jeżeli przekazany plik nie będzie w formacie `nazwa.rozszerzenie` (np. nie będzie miał nazwy plik.jpg), wtedy funkcja powinna zwróć false.
 
 
 ## Zadanie 4
@@ -241,3 +241,7 @@ const ob = {
     sum : 31
 }
 ```
+
+## Zadanie 17
+--------------------------
+Napisz funkcję `log(txt)`, która będzie służyć do wypisywania tekstu w konsoli. Tekst powinien być poprzedzony numerem np. `1. To jest przykładowy tekst`. Numer powinien się automatycznie zwiększać przy każdorazowym użyciu tej funkcji. Nie wolno ci tutaj użyć zmiennej globalnej, a zamiast niej odpowiednich domknięć.
