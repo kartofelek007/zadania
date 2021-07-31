@@ -117,9 +117,9 @@ Obiekt ten powinien mieć tylko metody:
 
     zwraca losową liczbę z przedziału `min`-`max`
 
-2. **generateIncTable(lng)**
+2. **generateIncTable(nr)**
 
-    zwraca nową tablicę o długości `lng` z liczbami od 0 do lng
+    zwraca nową tablicę z liczbami od 0 do `nr`
 
 3. **generateRandomTable(lng, min, max)**
 
