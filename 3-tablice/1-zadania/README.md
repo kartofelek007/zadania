@@ -5,14 +5,14 @@
 ## Zadanie 1
 --------------------------
 Stwórz tablicę z 6 losowymi zwierzakami.
-Napisz konsolę `showArray(arr)`, która wypisze kolejne elementy przekazanej tablicy. Zrób to na trzy sposoby za pomocą pętli `for`, `for of` oraz metody `forEach`.
-Dodatkowo wypisz długość każdego słowa oraz sumę wszystkich liter występujących w tablicy.
+Napisz funkcję `showArray(arr)`, która wypisze kolejne elementy przekazanej tablicy. Zrób to na trzy sposoby za pomocą pętli `for`, `for of` oraz metody `forEach`.
+Dodatkowo wypisz długość każdego słowa a na końcu sumę wszystkich liter występujących w tablicy.
 
 
 ## Zadanie 2
 --------------------------
 Napisz funkcję `checkPalindrom(txt)`, która zwróci prawdę/fałsz w zależności od tego, czy przekazane słowo jest palindromem.
-Palindrom to słowo, które brzmi tak samo czytane normalnie i wspak. Przykładem palindromu jest słowo `kajak`.
+Przykładem palindromu jest słowo `kajak`.
 
 
 ## Zadanie 3
@@ -35,16 +35,16 @@ const names = [
 ]
 ```
 
-Stwórz funkcję `unifyNames(names)`, do której przekażesz powyższą tablicę. Funkcja powinna zwrócić nową tablicę z imionami pisanymi małymi literami.
+Stwórz funkcję `unifyNames(names)`, do której przekażesz powyższą tablicę. Funkcja powinna zwrócić nową tablicę z imionami pisanymi małymi literami. Dla utrudnienia możesz zwrócić nową tablicę z imionami pisanymi z dużej litery.
 
-Wykorzystaj tą funkcję by uzyskać nową tablicę.
-Stwórz kolejną funkcję `countDifferentNames(names)`, która wypisze ile występuje każde z imion w przekazanej tablicy.
-Idealnym rozwiązaniem będzie to, gdy funkcja zwróci te informacje pod postacią obiektu.
+Wykorzystaj powyższą funkcję aby uzyskać nową tablicę.
+Stwórz kolejną funkcję `countDifferentNames(names)`, do której przekażesz nowo uzyskaną tablicę. Funkcja powinna zwrócić liczby występowania danego imienia.
+Idealnym rozwiązaniem będzie, gdy funkcja zwróci te informacje pod postacią obiektu.
 
 
 ## Zadanie 4
 --------------------------
-Stwórz funkcję `random(max)`, która będzie zwracać losową liczbę z zakresu `0 - max`. Za pomocą pętli i korzystając z tej funkcji wygeneruj tablicę z 20 losowymi liczbami. Następnie ją posortuj, wypisz jej elementy w konsoli, a następnie wypisz sumę oraz średnią wszystkich liczb z tej tablicy.
+Stwórz funkcję `random(max)`, która będzie zwracać losową liczbę z zakresu `0 - max`. Wykorzystaj tą funkcję do wygenerowania 20-elementowej tablicy. Posortuj tą tablicę,  a następnie wypisz sumę oraz średnią wszystkich liczb z tej tablicy.
 
 
 ## Zadanie 5
@@ -82,12 +82,12 @@ const tabUsers = [
 ```
 
 Sprawdź, czy w tablicy znajdują się pełnoletni użytkownicy.
-Jeżeli ich nie ma, wypisz w konsoli tekst `same małolaty`. Jeżeli jednak tacy się tam znajdują, stwórz nową tablicę zawierającą tylko pełnoletnie osoby, posortuj ją a następnie wypisz w konsoli.
+Jeżeli ich nie ma, wypisz w konsoli tekst `same małolaty`. Jeżeli jednak tacy są, stwórz nową tablicę zawierającą tylko pełnoletnie osoby, posortuj ją, a następnie wypisz w konsoli.
 
 
 ## Zadanie 7
 --------------------------
-Napisz funkcję `generateArray()`, która za pomocą pętli oraz funkcji `String.fromCharCode()` stwórzy i zwróci tablicę składającą się z kolejnych dużych liter. Litera A to kod 65, natomiast Z to 90.
+Napisz funkcję `generateArray()`, która za pomocą pętli oraz funkcji `String.fromCharCode()` stworzy i zwróci tablicę składającą się z kolejnych dużych liter. Litera A to kod 65, natomiast Z to 90.
 
 Napisz funkcję `splitArray(tab, nr)`, do której przekażesz powyższą tablicę oraz liczbę `nr`. Funkcja powinna zwrócić tablicę tablic, gdzie każda podtablica będzie składać się z `nr` kolejnych liter. Możesz tutaj wykorzystać metodę `slice()` dostępną dla tablic.
 
@@ -107,7 +107,7 @@ wynik:
 
 ## Zadanie 8
 --------------------------
-Mamy tajemniczą macierz (brzmi bardziej złowieszczo):
+Jako poszukiwacz przygód, doszedłeś do tajemniczej komnaty, na ścianie której znajduje się tajemniczy zapis:
 
 ```
 const arr = [
@@ -122,14 +122,14 @@ const arr = [
 ]
 ```
 
-Twoim zadaniem jest odczytać tajny tekst zakodowany na jej stronicach.
-Naszym kryptologom po ciężkich znojach udało się przygotować kierunek odczytu:
+W starych notatkach znajdujesz tylko krótki ciąg, który ponoć wskazuje kierunek poruszania się po powyższym zapisie.
 
 ```
 const str = "rrrdddllddrrruuuurrddrruurddddlld";
 ```
 
-Twoim zadaniem jest zdekodować ukryty tekst poruszając się zgodnie z otrzymaną instrukcją. Dekodowanie rozpoczynasz w lewym górnym rogu.
+Twoim zadaniem jest zdekodować ukrytą informację. Dekodowanie rozpoczynasz w lewym górnym rogu, a następnie powinieneś się poruszać zgodnie z literami, gdzie `r` oznacza prawo, `d` dół, `l` lewo, a `u` górę.
+
 Po pobraniu kodów z odpowiednich miejsc zamień je na litery za pomocą `String.fromCharCode(x)`.
 Wynikiem powinien być wypisane w konsoli hasło.
 

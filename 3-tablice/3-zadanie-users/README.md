@@ -2,9 +2,8 @@
 ==========================
 
 
-Uwaga! Do tego zadania najlepiej poznać funkcje iteracyjne. Opisałem je na stronie:
-http://kursjs.pl/kurs/super-podstawy/tablice-tematy-dodatkowe.php
-Można też pokusić się zrobić je bez tych metod. Po prostu będzie więcej kodowania.
+Poniższe zadania najlepiej zrobić za pomocą metod tablicowych takich jak `forEach()`, `filter(), `map()` itp. Ich opis znajdziesz na stronie:
+http://kursjs.pl/kurs/super-podstawy/tablice-tematy-dodatkowe.php oraz na stronie MDN.
 
 Do pliku index.html dołączone są 2 pliki js: `js/app.js` i `js/data.js`.
 W pliku `js/data.js` znajduje się tablica użytkowników, na której będziemy działać.
@@ -40,23 +39,23 @@ Wypisz tablicę użytkowników którzy mają tag "dolor"
 
 ## Zadanie 5
 --------------------------
-Wypisz true/false w zależności od tego czy wszyscy użytkownicy są pełnoletni
+Wypisz true/false w zależności od tego, czy wszyscy użytkownicy są pełnoletni
 
 
 ## Zadanie 6
 --------------------------
-Wypisz true/false w zależności od tego czy chociaż jeden z użytkowników jest pełnoletni
+Wypisz true/false w zależności od tego, czy chociaż jeden z użytkowników jest pełnoletni
 
 
 ## Zadanie 7
 --------------------------
-Wypisz nową tablicę zawierającą tylko imiona użytkowników które będą pisane dużymi literami
+Wypisz nową tablicę zawierającą tylko imiona użytkowników, które będą pisane dużymi literami
 
 
 ## Zadanie 8
 --------------------------
 Wypisz liczbę kobiet i liczbę mężczyzn
-Wypisz tekst która grupa jest liczniejsza (np. "kobiety wygrywają")
+Wypisz tekst, która grupa jest liczniejsza (np. `"kobiety wygrywają"`)
 
 
 ## Materiały:

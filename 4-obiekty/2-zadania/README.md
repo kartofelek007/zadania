@@ -6,7 +6,7 @@
 --------------------------
 W pliku app.js masz tablice użytkowników. Jest to zła forma danych. Czemu?
 
-Stwórz funkcję `fixData()`, która przyjmie tablicę ze złymi danymi i zwróci poprawioną tablicę obiektów
+Stwórz funkcję `fixData()`, która przyjmie tablicę ze złymi danymi, a następnie zwróci poprawioną tablicę obiektów,
 gdzie każdy z nich będzie miał klucze: `id`, `name`, `surname`, `email`, `age`, `cash` pod które podstawisz kolejne dane z tablicy.
 Spróbuj wykorzystać tutaj destrukturyzację.
 

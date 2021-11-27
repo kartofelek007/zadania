@@ -53,9 +53,9 @@ Stwórz prosty obiekt **spaceShip**, który będzie miał:
 - **flyDistance** ustawione na 0
 
 #### Metody:
-- **flyTo(place, distance)** która ustawi obiektowi właściwość `currentLocation` na odpowiednie miejsce podane w parametrze `place` oraz doliczy przebyty dystans do `flyDistance`.
+- **flyTo(place, distance)**, która ustawi obiektowi właściwość `currentLocation` na odpowiednie miejsce podane w parametrze `place` oraz doliczy przebyty dystans do `flyDistance`.
 
-- Metodę **showInfo()** która wypisze w konsoli tekst:
+- Metodę **showInfo()**, która wypisze w konsoli tekst:
 
     ```
     Informacje o statku:
@@ -65,7 +65,7 @@ Stwórz prosty obiekt **spaceShip**, który będzie miał:
     Statek przeleciał już całkowity dystans ....
     ```
 
-- Metodę **meetClingon()** która wykona 100 losowań 0-1. Jeżeli minimum połowa będzie pozytywna (większa niż połowa), wtedy powinna wypisać w konsoli:
+- Metodę **meetClingon()**, która wykona 100 losowań 0-1. Jeżeli minimum połowa będzie pozytywna (większa niż połowa), wtedy powinna wypisać w konsoli:
 
     ```Statek .... będący w okolicy .... zwycięsko wyszedł ze spotkania z Klingonami```
 
@@ -96,12 +96,12 @@ Stwórz obiekt **book**, który będzie miał:
 - **findByName(name)**
 
     która wypisze w konsoli pierwszego użytkownika, który ma szukane imię
-    lub false jeżeli nie znajdzie.
+    lub `false` jeżeli nie znajdzie.
 
 - **findByPhone(phone)**
 
     która wypisze w konsoli pierwszego użytkownika, który ma szukany telefon
-    lub false jeżeli nie znajdzie
+    lub `false` jeżeli nie znajdzie
 
 - **getCount()**
 
@@ -129,7 +129,7 @@ Obiekt ten powinien mieć tylko metody:
 
     generuje nową tablicę ze słowami z tekstu `str`
     Jeżeli przekazany tekst nie jest tekstem, wtedy powinna być zwrócona pusta tablica
-    Wykorzystaj odpowiednią metodę dla stringów (szukaj na "mdn js string")
+    Wykorzystaj odpowiednią metodę dla String
 
 5. **getMaxFromTable(arr)**
 
@@ -149,7 +149,7 @@ Stwórz obiekt o nazwie **text**. Obiekt ten powinien mieć metody:
 
 1. **check(txt, word)**
 
-    która zwraca true/false jeżeli w tekście `txt` znajduje się szukane słowo `word`
+    która zwraca `true/false` jeżeli w tekście `txt` znajduje się szukane słowo `word`
 
     ```
     check("ala ma kota", "kota")
@@ -194,7 +194,7 @@ Stwórz obiekt o nazwie **text**. Obiekt ten powinien mieć metody:
 
 6. **generateRandom(lng)**
 
-    Generuje tekst o długości lng który składa się z losowych liter
+    Generuje tekst o długości `lng`, który składa się z losowych liter
 
     ```
     generateRandom(10)

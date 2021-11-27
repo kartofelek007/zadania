@@ -2,9 +2,8 @@
 ==========================
 
 
-Uwaga! Do tego zadania najlepiej poznać funkcje iteracyjne. Opisałem je na stronie:
-http://kursjs.pl/kurs/super-podstawy/tablice-tematy-dodatkowe.php
-Można też pokusić się zrobić je bez tych metod. Po prostu będzie więcej kodowania.
+Poniższe zadania najlepiej zrobić za pomocą metod tablicowych takich jak `forEach()`, `filter(), `map()` itp. Ich opis znajdziesz na stronie:
+http://kursjs.pl/kurs/super-podstawy/tablice-tematy-dodatkowe.php oraz na stronie MDN.
 
 Do pliku html dołączone są 2 pliki: `js/cities.js` i `js/app.js`.
 
