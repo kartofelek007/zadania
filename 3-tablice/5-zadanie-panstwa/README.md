@@ -3,7 +3,7 @@
 
 
 W pliku `data/data.js` znajduje się tablica z państwami.
-Stosując poznane metody zrealizuj poniższe zadania:
+Stosując poznane metody tablicowe zrealizuj poniższe zadania:
 
 
 ## Zadanie 1
