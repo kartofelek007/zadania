@@ -14,6 +14,5 @@ Twoim zadaniem będzie zaprogramowanie logiki, ale też wyglądu.
 --------------------------
 - odpowiednie ikonki znajdują się w katalogu images
 - strona powinna być w pełni responsywna
-- zanim zaczniesz zadanie, zainstaluj paczki z pliku package.json, a następnie odpal `npm start`. Powinno ono odpalić json-server, który będzie nasłuchiwał plik `database/database.json`. W terminalu powinieneś dostać adres na który będziesz się łączył to jest mniej więcej `http://localhost:3000/users`.
-- spójrz sobie na plik `database/database.json` by zobaczyć jakie klucze będziesz musiał wysyłać
+- zanim zaczniesz zadanie, zainstaluj paczki z pliku package.json, a następnie odpal `npm start`. Powinno ono odpalić json-server, który będzie nasłuchiwał plik `database/database.json`. W terminalu powinieneś dostać adres do strony z przykładowym api. Przejdź na nią i zobacz na jakie adresy możesz się łączyć.
 - Dane wysyłaj w formacie JSON używając odpowiednich metod - przy dodawaniu POST, przy edycji PUT, przy usuwani DELETE.
