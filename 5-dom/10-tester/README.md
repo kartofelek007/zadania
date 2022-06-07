@@ -13,13 +13,29 @@ Napisz funkcję, która pobierze wszystkie elementy z BODY, a następnie nada ka
 --------------------------
 Stwórzmy z powyższego kodu bookmarklet (https://www.freecodecamp.org/news/what-are-bookmarklets/ i https://pl.wikipedia.org/wiki/Skryptozak%C5%82adka).
 
-Przejdź na stronę https://closure-compiler.appspot.com/home a następnie zminimalizuj kod swojej funkcji.
-Okryj go funkcją tak aby uzyskać kod w postaci:
+Przejdź na stronę https://closure-compiler.appspot.com/home a następnie zminimalizuj kod funkcji z pierwszego zadania (tylko jej wnętrze).
+Okryj go funkcją IIFE tak aby uzyskać kod w postaci:
+
 ```js
 javascript: (() => { tutaj_wklej_swoj_zminimalizowany_kod })();
 ```
+
 Utwórz w przeglądarce na pasku zakładek nową zakładkę, a następnie jako adres wklej cały uzyskany kod.
 Przejdź na dowolną stronę i sprawdź czy twój nowy bookmarklet działa.
+
+
+## Zadanie 3
+--------------------------
+W podobny sposób stwórz 2 dodatkowe bookmarklety.
+
+Pierwszy z nich o kliknięciu powinien usunąć ze strony wszystkie style (czyli usunąć wszystkie elementy LINK, ale tylko te, które prowadzą do plików CSS), wszystkie elementy `&lt;style>` oraz atrybuty style dla wszystkich elementów.
+
+Drugi po kliknięciu powinien wypisać w konsoli debugera dodatkowe informacje:
+- liczbę wszystkich elementów z body
+- liczbę linków z podziałem na wewnętrzne i zewnętrzne (czyli zaczynające się od http)
+- liczbę grafik img bez alt
+- liczbę nagłówków
+- wszystkie nagłówki po kolei w postaci "Hx -> tutaj tekst danego nagłówka"
 
 
 ## Materiały:
