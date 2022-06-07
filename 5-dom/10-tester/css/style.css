@@ -1,0 +1,28 @@
+body {
+	font-family: sans-serif;
+}
+.section-element {
+	width: 80vw;
+	margin: 20px 10vw;
+}
+.section-element > div {
+}
+.section1 {}
+.section2 {}
+.section3 {
+	width: 150%
+}
+.section4 {}
+.section5 {}
+.section6 {
+	width: 140%;
+}
+.section7 {}
+.section8 {}
+.section9 {
+	width: 140%;
+}
+.section10 {}
+header {
+	text-align: center;
+}
