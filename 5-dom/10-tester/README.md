@@ -5,8 +5,18 @@
 ## Zadanie 1
 --------------------------
 Strona źle się wyświetla, ponieważ wychodzi poziomo poza ekran (pojawił się poziomy pasek przewijania).
-Za pomocą JS stwórz i dodaj na początku strony przycisk z tekstem "mark all elements".
-Napisz funkcję, która pobierze wszystkie elementy z BODY, a następnie nada każdemu z nich obramowanie (najlepiej za pomocą właściwości outline) z losowym kolorem. Po naciśnięciu przycisku odpal tą funkcję.
+
+Stwórz funkcję, która:
+- pobierze wszystkie elementy z BODY,
+- dla każdego elementu wylosuje losową liczbę z zakresu 0-360
+- wylosowaną liczbę zapisze w atrybucie data-my-debug-color
+- za pomocą właściwości outline lub box-shadow ustawi dla każdego elementu obramowanie na kolor `hsl(wartosc_atrybutu_data_my_debug_color, 100% 60%)`
+
+
+## Zadanie 1b
+--------------------------
+Rozbuduj powyższą funkcję.
+Po najechaniu kursorem na dowolny element w BODY, dodaj mu tło w kolorze `hsla(wartosc_atrybutu_data_my_debug_color, 100% 60%, 0.2)`, oraz wyświetl w prawym rogu ekranu tooltip z informacją o wymiarach najechanego elementu. Tooltip dodaj bezpośrednio do body i ustaw go za pomocą position fixed. Do pobrania rozmiarów najechanego elementu możesz użyć [getBoundingClientRect](https://developer.mozilla.org/pl/docs/Web/API/Element/getBoundingClientRect). Po zjechaniu kursorem z danego elementu ukryj tooltip ustawiając go poza ekranem (np. top: -99999px). Jeżeli masz problem z tym zadaniem, wróć do 7 zadania z mapą.
 
 
 ## Zadanie 2
@@ -17,7 +27,7 @@ Przejdź na stronę https://closure-compiler.appspot.com/home a następnie zmini
 Okryj go funkcją IIFE tak aby uzyskać kod w postaci:
 
 ```js
-javascript: (() => { tutaj_wklej_swoj_zminimalizowany_kod })();
+javascript: (() => { zminimalizowany_kod_wnętrza_funkcji_z_1_zadania })();
 ```
 
 Utwórz w przeglądarce na pasku zakładek nową zakładkę, a następnie jako adres wklej cały uzyskany kod.
