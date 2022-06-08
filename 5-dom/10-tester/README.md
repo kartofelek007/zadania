@@ -28,7 +28,7 @@ Przejdź na dowolną stronę i sprawdź czy twój nowy bookmarklet działa.
 --------------------------
 W podobny sposób stwórz 2 dodatkowe bookmarklety.
 
-Pierwszy z nich o kliknięciu powinien usunąć ze strony wszystkie style (czyli usunąć wszystkie elementy LINK, ale tylko te, które prowadzą do plików CSS), wszystkie elementy `&lt;style>` oraz atrybuty style dla wszystkich elementów.
+Pierwszy z nich o kliknięciu powinien usunąć ze strony wszystkie style (czyli usunąć wszystkie elementy LINK, ale tylko te, które prowadzą do plików CSS), wszystkie elementy `<style>` oraz atrybuty style dla wszystkich elementów.
 
 Drugi po kliknięciu powinien wypisać w konsoli debugera dodatkowe informacje:
 - liczbę wszystkich elementów z body
