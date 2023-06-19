@@ -6,13 +6,11 @@ Do pliku html dołączyłem 2 pliki js:
 - payments.js - są to przykładowe dane na temat średniej płacy w naszym kraju
 
 Twoje zadanie:
-Chciałbym dowiedzieć się ile bym oszczędził, gdybym zarabiał średnią krajową i miesiąc w miesiąc odkładał 1/3 pensji do skarpety. 
+1) Chciałbym dowiedzieć się ile bym oszczędził, gdybym zarabiał średnią krajową i miesiąc w miesiąc odkładał 1/3 pensji do skarpety (bez żadnych odsetek i modyfikatorów). 
 
-Następnie chciałym się dowiedzieć, ile bym zaoszczędził gdybym regularnie odkładał 1/3 pensji i w momencie gdy odłoży się odpowiednia suma kupował najwięcej złotych monet ile mogę w danym momencie. Dla uproszczenia załóżmy, że cena 1 złotej monety jest identyczna z ceną z powyższych danych dotyczących złota.
+2) Chciałym się dowiedzieć, ile był bym w stanie w tym samym czasie kupić złotych monet. Dla uproszczenia załóżmy, że cena 1 złotej monety jest identyczna z ceną z powyższych danych dotyczących złota (parametr "endDateTime"). Nasza strategia zakłada, że monety będziemy kupować możliwie szybko i często. Podaj mi ile dziś były by warte zakupione monety. Cenę monety możesz wiąć z pierwszej lepszej strony ze złotem np. https://tavex.pl/zloto/zlote-monety-bulionowe/
 
-Przeanalizuj dane. Jak zauważysz oba zbiory różnią się od siebie. Dla płac mamy tylko średnie dla całych lat, natomiast dla złota ceny dla każdego miesiąca. Do naszych obliczeń wykorzystaj parametr "endDateTime" oraz "close". 
-
-
+Do naszych obliczeń wykorzystaj parametr "endDateTime" oraz "close". 
 
 
 ## Materiały:
