@@ -1,6 +1,6 @@
-# Zadania z Javascript
-
 ![Zadania z JS](enter-image.svg)
+
+# Zadania z Javascript
 
 Witam serdecznie w zadaniach z Javascript.
 
