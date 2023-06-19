@@ -1,7 +1,7 @@
 # Zadania - tablice
 ==========================
 
-Do pliku html dołączyłem 3 pliki js: 
+Do pliku html dołączyłem 2 pliki js: 
 - gold.js - są to przykładowe dane na temat złota
 - payments.js - są to przykładowe dane na temat średniej płacy w naszym kraju
 
