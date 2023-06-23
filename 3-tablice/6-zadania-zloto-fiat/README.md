@@ -8,7 +8,7 @@ Do pliku html dołączyłem 2 pliki js:
 Twoje zadanie:
 1) Chciałbym dowiedzieć się ile bym oszczędził, gdybym zarabiał średnią krajową i miesiąc w miesiąc odkładał 1/3 pensji do skarpety (bez żadnych odsetek i modyfikatorów). 
 
-2) Chciałym się dowiedzieć, ile był bym w stanie w tym samym czasie kupić złotych monet. Dla uproszczenia załóżmy, że cena 1 złotej monety jest identyczna z ceną z powyższych danych dotyczących złota (parametr "endDateTime"). Nasza strategia zakłada, że monety będziemy kupować możliwie szybko i często. Podaj mi ile dziś były by warte zakupione monety. Cenę monety możesz wiąć z pierwszej lepszej strony ze złotem np. https://tavex.pl/zloto/zlote-monety-bulionowe/
+2) Chciałym się dowiedzieć, ile był bym w stanie w tym samym czasie kupić złotych monet. Dla uproszczenia załóżmy, że cena 1 złotej monety jest identyczna z ceną z 1 uncji z powyższych danych (parametr "endDateTime"). Nasza strategia zakłada, że monety będziemy kupować możliwie szybko i często. Podaj mi ile dziś były by warte zakupione monety. Cenę uncji możesz wiąć z pierwszej lepszej strony ze złotem np. https://goldenmark.com/pl/mysaver/ceny-zlota/
 
 Do naszych obliczeń wykorzystaj parametr "endDateTime" oraz "close". 
 
