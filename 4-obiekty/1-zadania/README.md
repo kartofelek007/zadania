@@ -69,7 +69,7 @@ Stwórz prosty obiekt **spaceShip**, który będzie miał:
 
     ```Statek .... będący w okolicy .... zwycięsko wyszedł ze spotkania z Klingonami```
 
-    jeżeli jednak mniej niż połowa będzie pozytywna, powinien pojawić się żółty tekst w konsoli (console.alert)
+    jeżeli jednak mniej niż połowa będzie pozytywna, powinien pojawić się żółty tekst w konsoli (console.warn)
 
     ```Statek .... będący w okolicy .... został pokonany przez Klingonów```
 
