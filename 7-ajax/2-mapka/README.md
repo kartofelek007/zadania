@@ -5,18 +5,20 @@
 ## Zadanie 1
 --------------------------
 Pobierz dane z adresu:
-https://restcountries.eu/rest/v2/all?fields=iso2Code;name
+https://restcountries.com/v3.1/all
 W odpowiedzi dostaniesz listę państw.
 Na jej podstawie wygeneruj option'y i wrzuć je do selekta o id #countrySelect
 Każdy option powinien mieć postać np. &lt;option value="Afganistan">Afganistan&lt;/option>
-Po wrzuceniu optionów musisz aktywować ten selekt, bo jest obecnie disabled
+Po wrzuceniu optionów musisz aktywować ten selekt, bo jest obecnie wyłączony
 
 
 ## Zadanie 2
 --------------------------
 Podepnij się pod "zmianę" selekta.
 Gdy ktoś wybierze inną opcję z selekta, pobierz jego wartość i wykonaj połączenie ajax na adres:
-https://restcountries.eu/rest/v2/name/NAZWA_PANSTWA
+https://restcountries.com/v3.1/name/{name}
+
+gdzie `name` to przekazana z selekta nazwa państwa.
 
 Po zakończeniu połączenia wypełnij element #countryData odpowiednim HTMLem (najłatwiej wygenerować cały html za pomocą template string).
 
